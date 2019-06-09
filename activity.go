@@ -68,7 +68,7 @@ func (a *XMLParserActivity) Eval(ctx activity.Context) (done bool, err error) {
 	if err != nil {
 		activityLog.Debugf("File Exception :  ", err)
 		fmt.Println("File Exception ", err)
-
+		return
 	}
 
 	fmt.Println("Successfully Opened ", File)
@@ -82,7 +82,7 @@ func (a *XMLParserActivity) Eval(ctx activity.Context) (done bool, err error) {
 	if err != nil {
 		activityLog.Debugf("File Read Exception ", err)
 		fmt.Println("File Read Exception ", err)
-
+		return
 	}
 
 	// For File
@@ -92,7 +92,7 @@ func (a *XMLParserActivity) Eval(ctx activity.Context) (done bool, err error) {
 	if err != nil {
 		activityLog.Debugf("Error ", err)
 		fmt.Println("error: ", err)
-
+		return
 	}
 
 	fmt.Println(string(jsonData)) // Printing Json Data

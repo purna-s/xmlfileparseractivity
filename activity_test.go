@@ -51,7 +51,7 @@ func TestEval(t *testing.T) {
 
 	//setup attrs
 	//tc.SetInput("xmlString", ``)
-	tc.SetInput("file", "D:/Flogo/EnterpriseFlogo/Working/XMl/myParse.xml")
+	tc.SetInput("file", "D:/Flogo/xml.jsp")
 
 	done, err := act.Eval(tc)
 	if !done {
