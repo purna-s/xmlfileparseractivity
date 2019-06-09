@@ -1,0 +1,25 @@
+{
+  "name": "XmlFileParserActivity",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "ref": "github.com/dhire05/xmlfileparseractivity",  
+  "title": "XMLFileParser",
+  "description": "Parse XML into a Flogo Array",
+  "author": "Darshan Hire <dhire@tibco.com>",
+
+  "inputs":[
+    
+    
+    {
+      "name": "file",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "outputs": [
+    {
+      "name": "output",
+      "type": "string"
+    }
+  ]
+}
