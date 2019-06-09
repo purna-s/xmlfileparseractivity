@@ -95,7 +95,7 @@ func (a *XMLParserActivity) Eval(ctx activity.Context) (done bool, err error) {
 		return
 	}
 
-	fmt.Println(string(jsonData)) // Printing Json Data
+	//fmt.Println(string(jsonData)) // Printing Json Data
 
 	//for XML String
 	//xmlString := (string(XMLString))
@@ -111,8 +111,8 @@ func (a *XMLParserActivity) Eval(ctx activity.Context) (done bool, err error) {
 		fmt.Println(string(jsonData))
 	}*/
 	// Set the output as part of the context
-	activityLog.Debugf("Parsed Object from XML : ", string(jsonData))
-	fmt.Println("Parsed Object from XML : ", string(jsonData))
+	activityLog.Debugf("Activity has parsed XML Successfully")
+	fmt.Println("Activity has parsed XML Successfully")
 
 	ctx.SetOutput("output", string(jsonData))
 
