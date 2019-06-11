@@ -2,10 +2,10 @@
   "name": "XmlFileParserActivity",
   "version": "0.0.1",
   "type": "flogo:activity",
-  "ref": "github.com/dhire05/xmlfileparseractivity",  
+  "ref": "github.com/purna-s/xmlfileparseractivity",  
   "title": "XMLFileParser",
   "description": "Parse XML into a Flogo Array",
-  "author": "Darshan Hire <dhire@tibco.com>",
+  "author": "PurnaS <purna.sadanala@prowesssoft.com>",
 
   "inputs":[
     
