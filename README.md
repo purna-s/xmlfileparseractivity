@@ -8,6 +8,6 @@ This activity allows you Parse XML File using your defined schema in XMLFilePars
 ## Installation
 ### Flogo CLI
 ```bash
-flogo install github.com/dhire05/xmlfileparseractivity
+flogo install github.com/purna-s/xmlfileparseractivity
 ```
 
